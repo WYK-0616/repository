@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/echarts.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var names=[];
+            var scores=[];
+            $.ajax({
+                type:"GET",
+                url:"echarts/data",
+                success:function (msg) {
+                    for(key in msg){
+                        names.push(key);
+                        scores.push(msg[key]);
+                    }
+                    <!-- 3.初始化图表  -->
+                    var myChart= echarts.init(document.getElementById("main"));
+                    // 5.指定图表的配置项和数据
+                    var option = {
+                        title: {
+                            text: '各操作系统手机销量展示'
+                        },
+                        tooltip: {},
+                        legend: {
+                            data:['销量']
+                        },
+                        xAxis: {
+                            data: names
+                        },
+                        yAxis: {},
+                        series: [{
+                            name: '销量',
+                            type: 'bar',
+                            data: scores
+                        }]
+                    };
+                    <!-- 4.往图表中设置数据 -->
+                    myChart.setOption(option);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="main" style="width: 500px;height: 400px"></div>
+</body>
+</html>

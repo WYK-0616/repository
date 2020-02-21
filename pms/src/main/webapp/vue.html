@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue</title>
+<script type="text/javascript" src="js/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 添加表单 -->
+        <div>
+            <el-dialog title="添加项目" :visible.sync="dialogFormVisible">
+                <el-form :model="form">
+                    <el-form-item label="项目名称" :label-width="formLabelWidth">
+                        <el-input v-model="form.pname" autocomplete="off"></el-input>
+                    </el-form-item>
+                    <el-form-item label="客户公司" :label-width="formLabelWidth">
+                        <el-select v-model="form.comname" @change="change" placeholder="请选择客户公司">
+                            <el-option v-for="cust in comlist" :label="cust.comname" :value="cust.id"></el-option>
+                        </el-select>
+                    </el-form-item>
+                    <el-form-item label="公司联系人" :label-width="formLabelWidth">
+                        <el-input v-model="form.comper" v-model:value="companyperson" autocomplete="off"></el-input>
+                    </el-form-item>
+                    <el-form-item label="小组人数" :label-width="formLabelWidth">
+                        <el-input v-model="form.empcount" autocomplete="off"></el-input>
+                    </el-form-item>
+                    <el-form-item label="开始时间" :label-width="formLabelWidth">
+                        <el-date-picker
+                                v-model="form.starttime"
+                                type="date"
+                                placeholder="选择日期">
+                        </el-date-picker>
+                    </el-form-item>
+                    <el-form-item label="立项时间" :label-width="formLabelWidth">
+                        <el-date-picker
+                                v-model="form.buildtime"
+                                type="date"
+                                placeholder="选择日期">
+                        </el-date-picker>
+                    </el-form-item>
+                    <el-form-item label="项目资金" :label-width="formLabelWidth">
+                        <el-input v-model="form.cost" autocomplete="off"></el-input>
+                    </el-form-item>
+                    <el-form-item label="等级" :label-width="formLabelWidth">
+                        <el-select v-model="form.level" placeholder="请选择项目等级">
+                            <el-option label="着急" value="1"></el-option>
+                            <el-option label="一般" value="2"></el-option>
+                            <el-option label="暂缓" value="3"></el-option>
+                        </el-select>
+                    </el-form-item>
+                    <el-form-item label="结束时间" :label-width="formLabelWidth">
+                        <el-date-picker
+                                v-model="form.endtime"
+                                type="date"
+                                placeholder="选择日期">
+                        </el-date-picker>
+                    </el-form-item>
+                    <el-form-item label="结束时间" :label-width="formLabelWidth">
+                        <el-input v-model="form.remark" autocomplete="off"></el-input>
+                    </el-form-item>
+                </el-form>
+                <div slot="footer" class="dialog-footer">
+                    <el-button @click="dialogFormVisible = false">取 消</el-button>
+                    <el-button type="primary" @click="saveInfo">确 定</el-button>
+                </div>
+            </el-dialog>
+        </div>
+        <!-- 添加按钮 -->
+        <div>
+            <el-button type="primary" @click="dialogFormVisible = true">主要按钮</el-button>
+        </div>
+        <!-- 表格 -->
+        <div>
+            <el-table
+                    :data="list"
+                    border
+                    style="width: 100%">
+                <el-table-column
+                        prop="pid"
+                        label="项目ID"
+                        width="180">
+                </el-table-column>
+                <el-table-column
+                        prop="pname"
+                        label="项目名"
+                        width="180">
+                </el-table-column>
+                <el-table-column
+                        prop="comname"
+                        label="项目人数">
+                </el-table-column>
+            </el-table>
+        </div>
+        <!-- 分页导航栏 -->
+        <div>
+            <el-pagination
+                    background
+                    layout="prev, pager, next"
+                    :total="total"
+                    :page-size="pageSize"
+                    :current-page="currentPage"
+                    @current-change="currentChange">
+            </el-pagination>
+        </div>
+    </div>
+<script type="text/javascript">
+    new Vue({
+        el:"#app",
+        data:{
+            dialogTableVisible: false,
+            dialogFormVisible: false,
+            form:{
+                pname:"",
+                comname:"",
+                empcount:"",
+                comper:"",
+                starttime:"",
+                buildtime:"",
+                cost:"",
+                level:"",
+                endtime:"",
+                remark:""
+
+            },
+            formLabelWidth: '120px',
+            currentPage:1,
+            total:1,
+            pageSize:1,
+            list:[],
+            comlist:[],
+            companyperson:""
+        },
+        methods:{
+            saveInfo(){
+                this.dialogFormVisible = false;
+                var _this=this;
+                axios
+                    .post('/pms/pro/addProject',_this.form)
+                    .then(function (msg) {
+                        _this.fenye('/pms/pro/list');
+                    })
+                    .catch(function (error) { // 请求失败处理
+                        console.log(error);
+                    });
+            },
+            change(){
+                var _this=this;
+                axios
+                    .get("/pms/cust/getCustmer/"+_this.form.comname)
+                    .then(function (msg) {
+                        _this.companyperson=msg.data.companyperson;
+                    })
+                    .catch(function (error) { // 请求失败处理
+                        console.log(error);
+                    });
+            },
+            currentChange(num){
+                this.fenye('/pms/pro/list?pageNo='+num);
+            },
+            fenye(url){
+                var _this=this;
+                axios
+                    .get(url)
+                    .then(function (msg) {
+                        _this.list=msg.data.list;
+                        _this.pageSize=msg.data.pageSize;
+                        _this.total=msg.data.total;
+                        _this.currentPage=msg.data.pageNum;
+                    })
+                    .catch(function (error) { // 请求失败处理
+                        console.log(error);
+                    });
+            }
+        },
+        mounted:function () {
+            this.fenye('/pms/pro/list');
+            var _this=this;
+            axios
+                .get('/pms/cust/getList')
+                .then(function (msg) {
+                    _this.comlist=msg.data;
+                })
+                .catch(function (error) { // 请求失败处理
+                    console.log(error);
+                });
+        }
+    })
+</script>
+</body>
+</html>

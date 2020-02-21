@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79f05e83-a697-458b-bc18-294b979b440b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logstrore.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/aspect" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/aspect/ControllerLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/bean/Comparision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/bean/ComparisionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/controller/ComparisionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/dao/ComparisionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/dao/ComparisionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/service/ComparisionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/comparision/service/impl/ComparisionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/converter" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/converter/DateTimeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/bean/CustomerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/controller/EchartsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/dao/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/dao/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/exception" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/exception/ExceptionHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/cust/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/bean/EmpRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/bean/EmployeeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/bean/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/bean/PositionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/controller/PositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/dao/EmpRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/dao/EmpRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/dao/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/dao/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/dao/PositionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/dao/PositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/service/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/emp/service/impl/PositionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/filter" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/info" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/info/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/info/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/info/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/info/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean/Analysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean/AnalysisExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean/Attachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean/AttachmentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean/FunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean/ModuleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/bean/ProjectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/controller/AnalysisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/controller/AttachmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/controller/FunctionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/controller/ModuleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao/AnalysisMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao/AnalysisMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao/AttachmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao/AttachmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao/FunctionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao/FunctionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao/ModuleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao/ModuleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao/ProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/dao/ProjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/AnalysisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/AttachmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/FunctionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/ModuleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/impl/AnalysisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/impl/AttachmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/impl/FunctionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/impl/ModuleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pro/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/bean/RoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/bean/RoleSources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/bean/Sources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/bean/SourcesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/controller/SourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/dao/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/dao/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/dao/RoleSourcesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/dao/RoleSourcesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/dao/SourcesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/dao/SourcesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/service/SourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/system/service/impl/SourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/bean/BaoXiao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/bean/BaoXiaoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/bean/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/bean/NoticeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/bean/TieZi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/bean/TieZiExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/controller/BaoXiaoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/controller/NoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/controller/TieZiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/dao/BaoXiaoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/dao/BaoXiaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/dao/NoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/dao/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/dao/TieZiMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/dao/TieZiMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/service/BaoXiaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/service/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/service/TieZiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/service/impl/BaoXiaoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/service/impl/NoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/usual/service/impl/TieZiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/utils/ImageVerificationCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offcn/utils/PagingConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/archives-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/archives.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/baoxiao-task-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/baoxiao-task.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/duibiao-result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Admin(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/CssAdmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Dot_Info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Edit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Explain.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Login_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Login_tit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Menu_BG.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Menu_BG1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Select.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/SoftKey.Js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/SoftKey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/SortEnd_Folder_Close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/SortEnd_Folder_Open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Sort_File.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Sort_File_End.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Sort_Folder_Close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Sort_Folder_Open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Sort_Listline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Survey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/SysLeft_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/admin_p.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crm_9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/css1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/help_icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jquery-1.8.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left.files" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left.files/style_left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left_menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/menu01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/menu01_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/minus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/newhead.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/paymentsby_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qqonline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/style_left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/syscome.files" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/syscome.files/Admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/syscome.files/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/syscome.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/teble_bottom_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/teble_bottom_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/teble_top_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/teble_top_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/top_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/top_table_leftbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/indexvalue-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/indexvalue-base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/lang" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/default" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/whyGreen" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/lang" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/skin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/skin/default" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/skin/whyGreen" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/fonts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/css/doc.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/fontawesome4.2" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/fontawesome4.2/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/fontawesome4.2/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/fontawesome4.2/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/fontawesome4.2/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/fontawesome4.2/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/mobile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/mobile/need" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/skin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/skin/default" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script/back-to-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/anchor" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/background/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/gmap" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/help" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/help/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/help/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/help/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/image/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/insertframe" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/link" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/link/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/map" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/map/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/music" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/music/music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/music/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/music/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/preview" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/searchreplace" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/snapscreen" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/spechars" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/dragicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/edittable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/edittable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/edittable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/edittd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/table/edittip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/webapp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/controller.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib/json.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/jsp/lib/ueditor-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/addimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/listbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/en/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/css/ueditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/dialogbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/charts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/filescan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/loaderror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/lock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/sortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/videologo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/word.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/themes/iframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/SyntaxHighlighter" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/codemirror" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/snapscreen" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/font" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/video-js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/xss.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/zeroclipboard" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/ueditor.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/ueditor.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/ueditor.parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ueditor/ueditor.parse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ztree/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/message-give.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/message-seed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/modpassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/myarchives.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/mybaoxiao-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/mybaoxiao-base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/mybaoxiao-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/notice-send.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/notice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pm-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pm-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-base-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-base-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-base-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-file-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-file-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-file-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-file.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-function-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-function-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-function-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-function.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-model-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-model-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-model-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-model.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-need-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-need-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-need-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project-need.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/addnews.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/arr3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/arr4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/arrfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/arrl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/arrr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/book.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/book1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/bottombg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/file_dir.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/gtk-del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/gtk-sadd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/ico_spider.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/manage1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menu-ex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menu_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menu_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menuarrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menumember.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/menusearch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/part-index.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/qc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/sp_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/topbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/topitembg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/images/frame/wbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/js/frame" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/skin/js/frame/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/task-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/task-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/task-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/task-my.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/task.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/topic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/1b60f8af10ae4711923bdf7e8fe90001_ksolaunch.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/28c7ee8999384a40aeea1bd3c93c71ef_ksolaunch.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/30c07c4b25e942d9904eb156dfac024b_ksolaunch.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/4b9169ed93f34f6cb561751c0d1c05db_ksolaunch.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/504690d4818f43cdb5109c1481652bce_ksolaunch.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/5ec9471198e74e4fb7e04166baec4271_ksolaunch.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/6a5ebb45a9b941579b577fcd7b612c8d_快捷键.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/886c69afe3b44296b65c22d4a465fd36_快捷键.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/996d627c38e041c299db60815f8d8046_ksolaunch.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/b7276aac7fe34258acda9f6b40580562_快捷键.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/bd33f013d63c450cb21b19370f8f9d1c_结构化查询语言.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/d2cb26bec3934643baa6841901d9e13b_ksolaunch.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/de813c9fc1814d7b9539634e25f565cf_ksolaunch.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/offcn" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/offcn/apptest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/apache-tomcat-maven-plugin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/converter" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/converter/DateTimeConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/bean/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/bean/CustomerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/bean/CustomerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/bean/CustomerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/bean/CustomerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/dao/CustomerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/dao/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/exception" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/exception/ExceptionHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/cust/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/bean/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/bean/EmployeeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/bean/EmployeeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/bean/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/bean/EmployeeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/dao/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/dao/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/dao/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/emp/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/filter" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/Analysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/AnalysisExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/AnalysisExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/AnalysisExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/AnalysisExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/Attachment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/AttachmentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/AttachmentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/AttachmentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/AttachmentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/Function.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/FunctionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/FunctionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/FunctionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/FunctionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/Module.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/ModuleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/ModuleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/ModuleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/ModuleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/Project.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/ProjectExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/ProjectExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/ProjectExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/bean/ProjectExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/controller/AnalysisController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/controller/AttachmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/controller/FunctionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/controller/ModuleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/controller/ProjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao/AnalysisMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao/AnalysisMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao/AttachmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao/AttachmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao/FunctionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao/FunctionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao/ModuleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao/ModuleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao/ProjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/dao/ProjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/AnalysisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/AttachmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/FunctionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/ModuleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/ProjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/impl/AnalysisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/impl/AttachmentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/impl/FunctionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/impl/ModuleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/pro/service/impl/ProjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean/BaoXiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean/BaoXiaoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean/BaoXiaoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean/BaoXiaoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean/BaoXiaoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean/Notice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean/NoticeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean/NoticeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean/NoticeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/bean/NoticeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/controller/BaoXiaoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/controller/NoticeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/dao/BaoXiaoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/dao/BaoXiaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/dao/NoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/dao/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/service/BaoXiaoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/service/NoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/service/impl/BaoXiaoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/usual/service/impl/NoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/utils/ImageVerificationCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/utils/PagingConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/META-INF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/converter" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/converter/DateTimeConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/bean/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/bean/CustomerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/bean/CustomerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/bean/CustomerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/bean/CustomerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/dao/CustomerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/dao/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/exception" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/exception/ExceptionHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/cust/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/bean/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/bean/EmployeeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/bean/EmployeeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/bean/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/bean/EmployeeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/dao/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/dao/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/emp/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/filter" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/Analysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/AnalysisExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/AnalysisExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/AnalysisExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/AnalysisExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/Attachment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/AttachmentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/AttachmentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/AttachmentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/AttachmentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/Function.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/FunctionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/FunctionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/FunctionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/FunctionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/Module.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/ModuleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/ModuleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/ModuleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/ModuleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/Project.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/ProjectExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/ProjectExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/ProjectExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/bean/ProjectExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/controller/AnalysisController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/controller/AttachmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/controller/FunctionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/controller/ModuleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/controller/ProjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao/AnalysisMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao/AnalysisMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao/AttachmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao/AttachmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao/FunctionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao/FunctionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao/ModuleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao/ModuleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao/ProjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/dao/ProjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/AnalysisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/AttachmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/FunctionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/ModuleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/ProjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/impl/AnalysisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/impl/AttachmentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/impl/FunctionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/impl/ModuleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/pro/service/impl/ProjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean/BaoXiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean/BaoXiaoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean/BaoXiaoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean/BaoXiaoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean/BaoXiaoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean/Notice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean/NoticeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean/NoticeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean/NoticeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/bean/NoticeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/controller/BaoXiaoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/controller/NoticeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/dao/BaoXiaoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/dao/BaoXiaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/dao/NoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/dao/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/service/BaoXiaoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/service/NoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/service/impl/BaoXiaoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/usual/service/impl/NoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/utils/ImageVerificationCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/com/offcn/utils/PagingConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/HikariCP-java6-2.3.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.37.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/quartz-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.6.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/archives-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/archives.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/baoxiao-task-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/baoxiao-task.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/customer-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/customer-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/customer-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Admin(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/CssAdmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Dot_Info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Edit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Explain.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Login_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Login_tit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Menu_BG.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Menu_BG1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Select.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/SoftKey.Js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/SoftKey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/SortEnd_Folder_Close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/SortEnd_Folder_Open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Sort_File.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Sort_File_End.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Sort_Folder_Close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Sort_Folder_Open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Sort_Listline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Survey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/SysLeft_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/Upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/admin_p.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/bg2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/crm_9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/css1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/dot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/help_icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/home.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/jquery-1.8.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/left.files" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/left.files/style_left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/left.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/left_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/left_menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/logo_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/menu01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/menu01_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/minus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/newhead.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/paymentsby_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/qqonline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/style_left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/syscome.files" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/syscome.files/Admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/syscome.files/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/syscome.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/teble_bottom_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/teble_bottom_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/teble_top_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/teble_top_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/top_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/top_table_leftbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/images/tx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/lang" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/skin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/skin/default" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/skin/whyGreen" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/lang" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/skin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/skin/default" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/skin/whyGreen" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/message-give.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/message-seed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/modpassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/myarchives.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/mybaoxiao-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/mybaoxiao-base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/mybaoxiao-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/notice-send.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/notice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-base-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-base-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-base-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-file-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-file-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-file-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-file.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-function-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-function-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-function-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-function.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-model-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-model-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-model-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-model.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-need-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-need-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-need-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/project-need.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/resources-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/resources-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/resources.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/role-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/role-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/role-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/addnews.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/arr3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/arr4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/arrfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/arrl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/arrr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/book.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/book1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/bottombg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/file_dir.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/gtk-del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/gtk-sadd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/ico_spider.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/manage1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/menu-ex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/menu_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/menu_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/menuarrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/menubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/menumember.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/menusearch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/part-index.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/qc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/sp_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/topbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/topitembg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/images/frame/wbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/js/frame" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/skin/js/frame/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/task-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/task-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/task-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/task-my.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/task.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/upload" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/upload/6a5ebb45a9b941579b577fcd7b612c8d_快捷键.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/upload/886c69afe3b44296b65c22d4a465fd36_快捷键.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/upload/b7276aac7fe34258acda9f6b40580562_快捷键.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/upload/bd33f013d63c450cb21b19370f8f9d1c_结构化查询语言.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/user-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/user-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/user-look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pms-1.0-SNAPSHOT/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/offcn" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/offcn/apptest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-01-31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-02-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/webapps" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/customer_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/customer_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/customer_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/customer_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/customer_002dlook_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/customer_002dlook_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/customer_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/customer_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/login_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/main_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/main_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/menu_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/menu_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/message_002dgive_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/message_002dgive_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/message_002dseed_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/message_002dseed_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/message_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/message_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/mybaoxiao_002dbase_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/mybaoxiao_002dbase_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/notice_002dsend_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/notice_002dsend_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/notice_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/notice_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dbase_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dbase_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dbase_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dbase_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dbase_002dlook_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dbase_002dlook_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dbase_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dbase_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfile_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfile_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfile_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfile_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfile_002dlook_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfile_002dlook_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfile_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfile_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfunction_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfunction_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfunction_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfunction_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfunction_002dlook_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfunction_002dlook_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfunction_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dfunction_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dmodel_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dmodel_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dmodel_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dmodel_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dmodel_002dlook_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dmodel_002dlook_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dmodel_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dmodel_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dneed_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dneed_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dneed_002dedit_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dneed_002dedit_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dneed_002dlook_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dneed_002dlook_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dneed_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/project_002dneed_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/resources_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/resources_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/role_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/role_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/task_002dadd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/task_002dadd_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/task_002dmy_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/task_002dmy_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/task_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/task_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/top_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/top_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/user_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/org/apache/jsp/user_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/upload_92270388_859a_4102_bbcc_d1a9080832ec_00000000.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/upload_a9a4fc61_ea54_42f9_a137_20a0c90cd479_00000000.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/pms/upload_b8dc7b0f_5624_44af_8094_b721854148f5_00000000.tmp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pms" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository\maven" />
+        <option name="mavenHome" value="D:/dev/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\dev\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W8npOEsPCzjKLf60Jqefgnqrax" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/TortoiseSVN/bin/svn.exe" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\pms\src\main\webapp\js" />
+      <recent name="G:\pms\src\main\resources" />
+      <recent name="G:\pms\src\main\java\com\offcn\emp\dao" />
+      <recent name="G:\pms\src\main\java\com\offcn\system\dao" />
+      <recent name="G:\pms\src\main\java\com\offcn\system\bean" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.offcn.emp.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\pms\src\main\java\com\offcn\emp\dao" />
+      <recent name="G:\pms\src\main\java\com\offcn\emp\bean" />
+      <recent name="G:\pms\src\main\java\com\offcn\system\dao" />
+      <recent name="G:\pms\src\main\java\com\offcn\system\bean" />
+      <recent name="G:\pms\src\main\java\com\offcn\comparision\dao" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="apptest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.offcn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.offcn" />
+      <option name="MAIN_CLASS_NAME" value="com.offcn.apptest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.apptest.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="G:\pms" />
+          <option name="myCopyRoot" value="G:\pms" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="G:\pms" />
+          <option name="myCopyRoot" value="G:\pms" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79f05e83-a697-458b-bc18-294b979b440b" name="Default Changelist" comment="" />
+      <created>1578540271077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578540271077</updated>
+      <workItem from="1578540274971" duration="9189000" />
+      <workItem from="1578560565637" duration="13737000" />
+      <workItem from="1578618344972" duration="31813000" />
+      <workItem from="1578808138364" duration="5404000" />
+      <workItem from="1578825675996" duration="247000" />
+      <workItem from="1578876653405" duration="29428000" />
+      <workItem from="1578963110899" duration="31486000" />
+      <workItem from="1579049427198" duration="19809000" />
+      <workItem from="1579136397113" duration="10938000" />
+      <workItem from="1580901736279" duration="209000" />
+      <workItem from="1581048120083" duration="146000" />
+      <workItem from="1581161319533" duration="1199000" />
+      <workItem from="1581162566529" duration="304000" />
+      <workItem from="1581214183505" duration="1894000" />
+      <workItem from="1581297829654" duration="1278000" />
+      <workItem from="1581387109809" duration="17721000" />
+      <workItem from="1581471167185" duration="16578000" />
+      <workItem from="1581557004824" duration="17676000" />
+      <workItem from="1581669437390" duration="1944000" />
+      <workItem from="1581673517524" duration="3593000" />
+      <workItem from="1581905893909" duration="13039000" />
+      <workItem from="1581999193334" duration="644000" />
+      <workItem from="1582094681126" duration="1382000" />
+      <workItem from="1582097032584" duration="265000" />
+      <workItem from="1582097325249" duration="92000" />
+      <workItem from="1582097662898" duration="4157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="359" y="36" key="#Project_Structure" timestamp="1578542020980">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="36" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1578542020980" />
+    <state x="686" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1581912579309">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579164831937" />
+    <state x="686" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1581912579309" />
+    <state x="775" y="397" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580290303473">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="775" y="397" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1580290303473" />
+    <state x="365" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578573552942">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="365" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1578573552942" />
+    <state x="580" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581388029046">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578895070499" />
+    <state x="580" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1581388029046" />
+    <state x="517" y="72" key="CommitChangelistDialog2" timestamp="1582100833196">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="517" y="72" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1582100833196" />
+    <state x="685" y="213" key="FileChooserDialogImpl" timestamp="1582097078636">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="685" y="213" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1582097078636" />
+    <state width="1864" height="252" key="GridCell.Tab.0.bottom" timestamp="1581929904948">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1082" height="271" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579226068565" />
+    <state width="1864" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1581929904948" />
+    <state width="1864" height="252" key="GridCell.Tab.0.center" timestamp="1581929904948">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1082" height="271" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579226068565" />
+    <state width="1864" height="252" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1581929904948" />
+    <state width="1864" height="252" key="GridCell.Tab.0.left" timestamp="1581929904948">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1082" height="271" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579226068565" />
+    <state width="1864" height="252" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1581929904948" />
+    <state width="1864" height="252" key="GridCell.Tab.0.right" timestamp="1581929904948">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1082" height="271" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579226068565" />
+    <state width="1864" height="252" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1581929904948" />
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1578648756972">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578648756972" />
+    <state width="1322" height="217" key="GridCell.Tab.1.center" timestamp="1578648756972">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578648756972" />
+    <state width="1322" height="217" key="GridCell.Tab.1.left" timestamp="1578648756972">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578648756972" />
+    <state width="1322" height="217" key="GridCell.Tab.1.right" timestamp="1578648756972">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578648756972" />
+    <state x="373" y="88" key="Maven.ArtifactSearchDialog" timestamp="1580290593254">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="373" y="88" key="Maven.ArtifactSearchDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1580290593254" />
+    <state x="419" y="0" width="1241" height="1032" key="SettingsEditor" timestamp="1582097675039">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="419" y="0" width="1241" height="1032" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1582097675039" />
+    <state x="106" y="70" key="new project wizard" timestamp="1581669653270">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="107" y="82" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1578557106587" />
+    <state x="106" y="70" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1581669653270" />
+    <state x="476" y="223" width="945" height="960" key="run.anything.popup" timestamp="1581929043262">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579052019239" />
+    <state x="476" y="223" width="945" height="960" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1581929043262" />
+    <state x="604" y="69" width="945" height="962" key="search.everywhere.popup" timestamp="1581925201055">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="430" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1579050450841" />
+    <state x="604" y="69" width="945" height="962" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1581925201055" />
+    <state x="583" y="170" key="svn.repositoryBrowser" timestamp="1582097886195">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="583" y="170" key="svn.repositoryBrowser/0.0.1920.1032@0.0.1920.1032" timestamp="1582097886195" />
+    <state x="568" y="439" key="svn.upgradeDialog" timestamp="1582097887415">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="568" y="439" key="svn.upgradeDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1582097887415" />
+  </component>
+</project>
